@@ -1,4 +1,4 @@
-const backendDomin = "https://erudiwrite-backend.onrender.com/"
+const backendDomin = "https://erudiwrite-backend.onrender.com"
 
 const SummaryApi = {
     signUP : {
