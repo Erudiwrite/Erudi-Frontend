@@ -1,4 +1,4 @@
-const backendDomin = "http://localhost:8080"
+const backendDomin = "https://erudi-write-api.onrender.com"
 
 const SummaryApi = {
     signUP : {
