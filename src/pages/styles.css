@@ -1,0 +1,83 @@
+/* styles.css */
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideIn {
+    from {
+      transform: translateY(20px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes float {
+    from {
+      transform: translateY(0);
+    }
+    to {
+      transform: translateY(-10px);
+    }
+  }
+  
+  .animate-fadeIn {
+    animation: fadeIn 1s ease-out forwards;
+  }
+  
+  .animate-slideIn {
+    animation: slideIn 1s ease-out forwards;
+  }
+  
+  .animate-float {
+    animation: float 3s ease-in-out infinite alternate;
+  }
+  
+  .animate-slideUp {
+    animation: slideIn 1s ease-out forwards;
+  }
+  
+  .animate-delay-300 {
+    animation-delay: 300ms;
+  }
+  
+  .animate-delay-400 {
+    animation-delay: 400ms;
+  }
+  
+  .animate-delay-600 {
+    animation-delay: 600ms;
+  }
+  
+  .animate-delay-800 {
+    animation-delay: 800ms;
+  }
+  
+  .animate-delay-1000 {
+    animation-delay: 1000ms;
+  }
+  
+  .animate-delay-1200 {
+    animation-delay: 1200ms;
+  }
+  
+  .animate-delay-1400 {
+    animation-delay: 1400ms;
+  }
+  
+  .animate-delay-1600 {
+    animation-delay: 1600ms;
+  }
+  
+  .animate-delay-1800 {
+    animation-delay: 1800ms;
+  }
+  
